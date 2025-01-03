@@ -83,7 +83,7 @@ header .navbar-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: relative;
   background-color: chartreuse;
   bottom: 0%;
   right: 0%;
