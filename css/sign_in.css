@@ -7,15 +7,18 @@ body {
   margin: 0;
   background-color: #f0f0f0;
 }
+
 .signin-form {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .signin-form h2 {
   margin-bottom: 20px;
 }
+
 .signin-form input[type="text"],
 .signin-form input[type="password"] {
   width: 100%;
@@ -34,6 +37,7 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
 .signin-form input[type="submit"]:hover {
   background-color: #0056b3;
 }
