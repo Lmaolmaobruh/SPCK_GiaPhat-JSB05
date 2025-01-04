@@ -77,6 +77,45 @@ header .navbar-header {
   margin-bottom: 3rem;
 }
 
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box p{
+  color: #8f8f8f;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.feature-box > i{
+  font-size: 4rem;
+  color: #ef8172;
+}
+.feature-box > i:hover{
+  color: #ff4c68;
+}
+
+.carousel-item{
+  text-align: center;
+}
+.carousel-item > h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item > img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#carouselExample{
+  margin-top: 5%;
+  background-color: chartreuse;
+}
+
 /* FOOTER */
 .footer {
   width: 100%;
