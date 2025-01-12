@@ -26,5 +26,5 @@ document
       return;
     }
     alert("Account created successfully!");
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
   });
