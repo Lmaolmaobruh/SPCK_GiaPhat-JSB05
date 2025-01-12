@@ -18,6 +18,14 @@ header {
   color: #fff;
   overflow: hidden;
 }
+.title-header {
+align-self: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
