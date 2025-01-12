@@ -14,12 +14,15 @@ h3 {
 }
 
 header {
+  display: flex;
   background-color: chartreuse;
   color: #fff;
   overflow: hidden;
+  align-items: center;
 }
 .title-header {
-align-self: center;
+  position: relative;
+  align-self: center;
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
@@ -38,7 +41,7 @@ header .navbar-header {
 }
 .navbar-brand {
   font-weight: bold;
-  font-size: 200%;
+  font-size: 300%;
   color: #fff;
 }
 .navbar-brand:hover {
@@ -74,9 +77,11 @@ header .navbar-header {
   color: #fff;
 }
 
-.col-lg-6 {
+.row {
   padding: 3%;
-  text-align: center;
+  text-justify: center;
+  align-self: center;
+  display: flex;
 }
 
 .text-body-secondary {
@@ -168,4 +173,5 @@ header .navbar-header {
   background-color: chartreuse;
   bottom: 0%;
   right: 0%;
+  font-family: cursive;
 }
