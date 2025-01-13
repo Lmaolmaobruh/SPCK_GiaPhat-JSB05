@@ -22,6 +22,11 @@ header {
 img {
   scale: 0.75;
 }
+main .colored-section {
+  display: block;
+  justify-items: center;
+  background-color: #888383;
+}
 .title-header {
   position: relative;
   align-self: center;
@@ -80,18 +85,22 @@ header .navbar-header {
 }
 
 #carouselExampleInterval {
-  scale: 0.75;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  align-content: center;
 }
 
-.carousel-item{
+.carousel-item {
+  text-align: center;
+  padding: 10px;
   display: flex;
-  align-items: center;
-  justify-items: center;
+  width: 30%;
 }
-.btn-group {
-  position: relative;
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
+
+#mr-morale-the-big-steppers {
+font-size: 22.5px;
 }
