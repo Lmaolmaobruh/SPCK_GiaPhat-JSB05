@@ -79,6 +79,19 @@ header .navbar-header {
   color: #fff;
 }
 
-#carouselExampleInterval{
-    scale: 0.75;
+#carouselExampleInterval {
+  scale: 0.75;
+}
+
+.carousel-item{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.btn-group {
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
