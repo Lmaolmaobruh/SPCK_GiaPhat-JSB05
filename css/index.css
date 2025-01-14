@@ -20,6 +20,7 @@ header {
   overflow: hidden;
   align-items: center;
 }
+
 .title-header {
   position: relative;
   align-self: center;
@@ -32,21 +33,26 @@ header {
 .container-fluid {
   padding: 3% 15%;
 }
+
 header .navbar-header {
   background-color: chartreuse !important;
   margin-bottom: 4.5rem;
 }
+
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
+
 .navbar-brand {
   font-weight: bold;
   font-size: 300%;
   color: #fff;
 }
+
 .navbar-brand:hover {
   color: #fff;
 }
+
 .nav-link {
   font-size: 15px;
   font-weight: bold;
@@ -55,23 +61,28 @@ header .navbar-header {
   margin: 0 15px;
   text-align: right;
 }
+
 .nav-link:hover {
   opacity: 0.8;
   color: #fff;
 }
+
 .nav-link:focus {
   opacity: 0.9;
   color: #fff;
 }
+
 .navbar-toggler {
   border: 1px solid rgba(255, 255, 255, 0.5);
   /* border-width: 1px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.5); */
 }
+
 .navbar-toggler:focus {
   box-shadow: 2px 2px 0 0 rgba(255, 255, 255, 0.5);
 }
+
 .navbar-toggler > i {
   font-size: 1.5rem;
   color: #fff;
