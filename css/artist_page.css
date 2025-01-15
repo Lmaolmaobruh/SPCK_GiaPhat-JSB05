@@ -21,7 +21,9 @@ header {
 
 img {
   scale: 0.75;
+  border-radius: 10px;
 }
+
 main .colored-section {
   display: block;
   justify-items: center;
@@ -60,7 +62,7 @@ header .navbar-header {
 }
 
 .nav-link {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
   color: #fff;
   opacity: 0.6;
@@ -124,6 +126,12 @@ header .navbar-header {
   align-content: center;
   position: relative;
   width: 100%;
+}
+
+P {
+  font-size: 1rem;
+  font-weight: 2px;
+  margin-top: 5%;
 }
 
 footer {
