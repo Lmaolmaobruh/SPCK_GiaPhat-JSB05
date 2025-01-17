@@ -43,13 +43,13 @@ header .navbar-header {
   justify-content: flex-end;
 }
 
-.navbar-brand {
+#webBrand {
   font-weight: bold;
-  font-size: 300%;
-  color: #fff;
+  font-size: 150%;
+  color: #000;
 }
 
-.navbar-brand:hover {
+#webBrand:hover {
   color: #fff;
 }
 
